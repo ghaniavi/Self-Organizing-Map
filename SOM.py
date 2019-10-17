@@ -22,7 +22,7 @@ clas = {}
 # dataset_X is for the first column
 # dataset_Y is for the second column
 def openDataset():
-    with open('Tugas 2 ML Genap 2018-2019 Dataset Tanpa Label.csv') as csvfile:
+    with open('TanpaLabel.csv') as csvfile:
         spamreader = csv.reader(csvfile)
         for row in spamreader:
             dataset_X.append(float(row[0]))
